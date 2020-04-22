@@ -1,0 +1,8 @@
+#!name=Replica
+#!desc=Replica自定义
+
+[Replica]
+hide-apple-request = true
+hide-crashlytics-request = true
+hide-udp = false
+keyword-filter-type = false
