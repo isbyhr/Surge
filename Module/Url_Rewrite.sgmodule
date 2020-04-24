@@ -75,8 +75,6 @@
 
 
 # Advertising Block
-# > NOMO
-^https:\/\/nomo.dafork.com\/api\/v3\/iap\/ios_product_list https:\/\/files.catbox.moe\/fgmkpy.json 302
 
 # > Other
 ^https?:\/\/cfg.m.ttkvod.com\/mobile\/ttk_mobile_1.8.txt http:\/\/ogtre5vp0.bkt.clouddn.com\/Static\/TXT\/ttk_mobile_1.8.txt header
@@ -310,36 +308,3 @@
 ^https?:\/\/app.bilibili.com\/x\/v2\/search\/defaultword - reject
 ^https?:\/\/app.bilibili.com\/x\/v2\/search\/hot - reject
 ^https?:\/\/app.bilibili.com\/x\/v2\/search\/recommend - reject
-
-
-# > Other
-^https?:\/\/.+allOne.php\?ad_name=main_splash_ios - reject
-^https?:\/\/.+nga.cn.+\bhome.+\b=ad - reject
-^https?:\/\/.+resource=article\/recommend\&accessToken= - reject
-^https?:\/\/113.200.76.*:16420\/sxtd.bike2.01\/getkey.do - reject
-^https?:\/\/cdn.api.fotoable.com\/Advertise\/ - reject
-^https?:\/\/counter.ksosoft.com\/ad.php - reject
-^https?:\/\/creatives.ftimg.net\/ads - reject
-^https?:\/\/dd.iask.cn\/ddd\/adAudit - reject
-^https?:\/\/g.tbcdn.cn\/mtb\/ - reject
-^https?:\/\/huichuan.sm.cn\/jsad - reject
-^https?:\/\/iflow.uczzd.cn\/log\/ - reject
-^https?:\/\/iphone265g.com\/templates\/iphone\/bottomAd.js - reject
-^https?:\/\/m.+.china.com.cn\/statics\/sdmobile\/js\/ad - reject
-^https?:\/\/m.+.china.com.cn\/statics\/sdmobile\/js\/mobile.advert.js - reject
-^https?:\/\/m.+.china.com.cn\/statics\/sdmobile\/js\/mobileshare.js - reject
-^https?:\/\/m.elecfans.com\/static\/js\/ad.js - reject
-^https?:\/\/mobile-pic.cache.iciba.com\/feeds_ad\/ - reject
-^https?:\/\/nga.cn.+\bhome.+\b=ad - reject
-^https?:\/\/overseas.weico.cc\/portal.php\?a=get_coopen_ads - reject
-^https?:\/\/player.hoge.cn\/advertisement.swf - reject
-^https?:\/\/ress.dxpmedia.com\/appicast\/ - reject
-^https?:\/\/s3.pstatp.com\/inapp\/TTAdblock.css - reject
-^https?:\/\/sdk.99shiji.com\/ad\/ - reject
-^https?:\/\/statc.mytuner.mobi\/media\/banners\/ - reject
-^https?:\/\/static.cnbetacdn.com\/assets\/adv - reject
-^https?:\/\/static.iask.cn\/m-v20161228\/js\/common\/adAudit.min.js - reject
-^https?:\/\/v.17173.com\/api\/Allyes\/ - reject
-^https?:\/\/wmedia-track.uc.cn - reject
-^https?:\/\/www.ft.com\/__origami\/service\/image\/v2\/images\/raw\/https%3A%2F%2Fcreatives.ftimg.net%2Fads* - reject
-^https?:\/\/www.lianbijr.com\/adPage\/ - reject
