@@ -3,5 +3,3 @@
 
 [General]
 doh-server = https://ea-dns.rubyfish.cn/dns-query
-
-tls-provider = OpenSSL
