@@ -37,7 +37,7 @@ if (
     url.indexOf(path20) != -1
 ) {
     let obj = JSON.parse(body);
-    obj.statuses && obj.statuses = filter_timeline_statuses(obj.statuses);
+    obj.statuses = filter_timeline_statuses(obj.statuses);
     obj.advertises && setnull(obj.advertises);
     obj.ad && setnull(obj.ad);
     obj.num && obj.num = obj.original_num;
