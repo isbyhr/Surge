@@ -23,8 +23,6 @@ const path18 = "/!/photos/pic_recommend_status";
 const path19 = "/statuses/video_mixtimeline";
 const path20 = "/video/tiny_stream_video_list";
 
-function setnull(org){org=[]}
-
 const url = $request.url;
 var body = $response.body;
 
@@ -37,17 +35,17 @@ if (
     url.indexOf(path20) != -1
 ) {
     let obj = JSON.parse(body);
-    obj.statuses = filter_timeline_statuses(obj.statuses);
-    obj.advertises && setnull(obj.advertises);
-    obj.ad && setnull(obj.ad);
-    obj.num && obj.num = obj.original_num;
-    obj.trends && setnull(obj.trends);
+    if (obj.statuses) obj.statuses = filter_timeline_statuses(obj.statuses);
+    if (obj.advertises) obj.advertises = [];
+    if (obj.ad) obj.ad = [];
+    if (obj.num) obj.num = obj.original_num;
+    if (obj.trends) obj.trends = [];
     body = JSON.stringify(obj);
 }
 
 if (url.indexOf(path3) != -1) {
     let obj = JSON.parse(body);
-    obj.trend && delete obj.trend;
+    if (obj.trend) delete obj.trend;
     body = JSON.stringify(obj);
 }
 
