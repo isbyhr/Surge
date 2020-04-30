@@ -63,9 +63,6 @@ PicsArt美易解锁Pro = requires-body=1,script-path=https://raw.githubuserconte
 # 智能证件照相机 (by @superuv)
 智能证件相机 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js,type=http-response,pattern=^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister
 
-# 微商助手(by @superuv)
-微商助手 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/wszs.js,type=http-response,pattern=https:\/\/api\.lennou\.com\/user\/info
-
 # > Miao Miao
 # > Bear熊掌记 (By Miao Miao)
 bear = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js,type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
@@ -96,4 +93,4 @@ draft解锁 = requires-body=1,max-size=0,script-path=https://raw.githubuserconte
 Pdfexpert解锁VIP = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$)
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, trade-acs.m.taobao.com, api.meiyan.com, api.gao1gps.cn, api.m.jd.com, api.lennou.com, commerce-.*api.faceu.mobi, commerce-api.faceu.mobi, api.rr.tv, app.api.versa-ai.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, *.zhihu.com, aweme*.snssdk.com, api*.tiktokv.com, *.musical.ly, *.amemv.com, p.du.163.com, vsco.co, account.wps.*, ap*.intsig.net, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, api-intl.mr.meitu.com, license.pdfexpert.com, ap*.intsig.net, backend.getdrafts.com, nomo.dafork.com
+hostname = %APPEND% *.googlevideo.com, trade-acs.m.taobao.com, api.meiyan.com, api.gao1gps.cn, api.m.jd.com, commerce-.*api.faceu.mobi, commerce-api.faceu.mobi, api.rr.tv, app.api.versa-ai.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, *.zhihu.com, aweme*.snssdk.com, api*.tiktokv.com, *.musical.ly, *.amemv.com, p.du.163.com, vsco.co, account.wps.*, ap*.intsig.net, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, api-intl.mr.meitu.com, license.pdfexpert.com, ap*.intsig.net, backend.getdrafts.com, nomo.dafork.com
