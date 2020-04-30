@@ -26,7 +26,7 @@
 哈啰出行签到= script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,type=cron,cronexp=“45 1 1 * * *”
 
 #京东签到
-京东签到= script-path=https://raw.githubusercontent.combyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,type=cron,cronexp=“35 1 1 * * *”
+京东签到= script-path=https://raw.githubusercontent.com/byDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,type=cron,cronexp=“35 1 1 * * *”
 
 #网易云音乐自动签到
 网易云音乐签到= script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,type=cron,cronexp=“10 6 0 * * *”
