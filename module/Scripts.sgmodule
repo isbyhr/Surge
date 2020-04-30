@@ -63,28 +63,15 @@ PicsArt美易解锁Pro = requires-body=1,script-path=https://raw.githubuserconte
 # 智能证件照相机 (by @superuv)
 智能证件相机 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/znzj.js,type=http-response,pattern=^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister
 
-# > Miao Miao
-# > Bear熊掌记 (By Miao Miao)
-bear = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js,type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
-
 # > syzzzf
 # 轻颜相机 & ulike & 蒸汽波相机(vaporcam)三合一 解锁VIP(By @s y & Alex0510)
 轻颜相机解锁VIP = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js,type=http-response,pattern=^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info
 
-# > JAV101无限观看 (By 凉意)
+# > 啪哩啪哩无限观看 (By 凉意)
 JAV101.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js,type=http-response,pattern=^https\:\/\/api\.gao1gps\.cn\/v1\/user\/info
 
 # > 美颜相机一次性解锁内购（by黑黑酱）
 美颜相机解锁内购 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js,type=http-response,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json
-
-# 马卡龙 (By @CheeryTodo)
-马卡龙解锁 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mkl.js,type=http-response,pattern=https://app.api.versa-ai.com/pay/order/iap/check
-
-# > 人人视频 解锁AI原画 (by@george Jiang & R)
-人人视频解锁原画 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js,type=http-response,pattern=^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail)
-
-# > NOMO
-nomo相机解锁 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/nomo.js,script-update-interval=0,type=http-response,pattern=^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list
 
 # > draft
 draft解锁 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/draft.js,script-update-interval=0,type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification
@@ -93,4 +80,4 @@ draft解锁 = requires-body=1,max-size=0,script-path=https://raw.githubuserconte
 Pdfexpert解锁VIP = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$)
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, trade-acs.m.taobao.com, api.meiyan.com, api.gao1gps.cn, api.m.jd.com, commerce-.*api.faceu.mobi, commerce-api.faceu.mobi, api.rr.tv, app.api.versa-ai.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, *.zhihu.com, aweme*.snssdk.com, api*.tiktokv.com, *.musical.ly, *.amemv.com, p.du.163.com, vsco.co, account.wps.*, ap*.intsig.net, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, api-intl.mr.meitu.com, license.pdfexpert.com, ap*.intsig.net, backend.getdrafts.com, nomo.dafork.com
+hostname = %APPEND% *.googlevideo.com, trade-acs.m.taobao.com, api.meiyan.com, api.gao1gps.cn, api.m.jd.com, commerce-.*api.faceu.mobi, commerce-api.faceu.mobi, api.rr.tv, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, *.zhihu.com, aweme*.snssdk.com, api*.tiktokv.com, *.musical.ly, *.amemv.com, p.du.163.com, vsco.co, account.wps.*, ap*.intsig.net, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, api-intl.mr.meitu.com, license.pdfexpert.com, ap*.intsig.net, backend.getdrafts.com, nomo.dafork.com
