@@ -1,4 +1,4 @@
-#!name=Cron_Task
+#!name=Crontab Tasks
 #!desc=定时签到脚本
 #!system=ios
 
