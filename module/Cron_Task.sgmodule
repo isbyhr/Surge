@@ -30,7 +30,7 @@
 京东签到= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0,type=cron,cronexp=”30 0 * * *“
 
 #网易云音乐自动签到
-网易云音乐签到= script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0,type=cron,cronexp=”31 0 * * *“
+网易云音乐签到= script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0,type=cron,cronexp=”53 10 * * *“
 
 # 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
