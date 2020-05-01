@@ -6,7 +6,7 @@
 
 # 携程旅行  (By @barrymchen)
 # 打开App 点击”我的“,然后点击”我的积分“,再点击下面的”签到.任务“即可
-携程旅行签到 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js,script-update-interval=0,type=cron,cronexp=”0 58 10 * * *“
+携程旅行签到 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js,script-update-interval=0,type=cron,cronexp=0 15 11 * * *
 
 # 中国联通
 # 1打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
