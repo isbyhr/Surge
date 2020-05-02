@@ -16,8 +16,8 @@
 微博内去广告 = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list)
 
 # > 抖音 Remove Ad & Logo
-抖音去广告Request = script-path=https://Choler.github.io/Surge/Script/Aweme.js,type=http-request,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post)
-抖音去广告Response = requires-body=true,script-path=https://Choler.github.io/Surge/Script/Aweme.js,type=http-response,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v1.*\/(feed|post)
+抖音 & TikTok去广告&水印 = type=http-response,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://choler.github.io/Surge/Script/Aweme.js
+抖音 & TikTok去广告&水印 = type=http-request,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://choler.github.io/Surge/Script/Aweme.js
 
 # > 微信公众号
 微信公众号去广告 = script-path=https://Choler.github.io/Surge/Script/WeChat.js,type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad
