@@ -32497,11 +32497,6 @@ ai.taobao.com
 api.waptest.taobao.com
 apoll.m.taobao.com
 c-adash.m.taobao.com
-click.mz.simba.taobao.com
-click.simba.taobao.com
-click.tz.simba.taobao.com
-dsp.simba.taobao.com
-fav.simba.taobao.com
 m-adash.m.taobao.com
 m.simba.taobao.com
 mclick.simba.taobao.com
