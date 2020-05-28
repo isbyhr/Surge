@@ -47,7 +47,7 @@
 哔哩哔哩签到 = wake-system=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0,type=cron,cronexp=0 3 0 * * *
 
 # 如需银瓜子转硬币，取消下方注释
-哔哩哔哩换硬币 = wake-system=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0,type=cron,cronexp=0 2 0 * * *
+# 哔哩哔哩换硬币 = wake-system=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0,type=cron,cronexp=0 2 0 * * *
 
 # > 人人视频
 # 打开 APP, 访问下`个人中心`
