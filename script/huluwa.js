@@ -4,11 +4,11 @@ var obj = {
   "data": {
     "allTotalSettlement": 9990,
     "promotionNumbers": [
-      0,
-      0,
-      0,
-      0,
-      0
+      1,
+      2,
+      3,
+      4,
+      5
     ],
     "monthNumber": 9990,
     "currentSettlement": 9990,
@@ -19,7 +19,7 @@ var obj = {
     "balance": 99990,
     "otcName": "STOwhite OTC"
   },
-  "description": null
+  "description": "VIP"
 }
 
 $done({body: JSON.stringify(obj)});
