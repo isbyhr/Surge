@@ -19,7 +19,7 @@ var obj = {
     "balance": 99990,
     "otcName": "STOwhite OTC"
   },
-  "description": "VIP"
+  "description": null
 }
 
 $done({body: JSON.stringify(obj)});
